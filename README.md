@@ -1,0 +1,2 @@
+# MarcadorTruco
+Marcador de Truco
