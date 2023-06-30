@@ -3,6 +3,7 @@ import {View, Text} from "react-native"
 import styles from "./style"
 
 import Titulo from "../Titulo";
+import Botao from "../Botao";
 
 export default function Main(){
 
@@ -10,6 +11,7 @@ export default function Main(){
         <View style={styles.boxTitle}>
             <Titulo titulo={"Eles"}/>
             <Titulo titulo={"Nós"}/>
+            <Botao/>
         </View>
     )
 }
