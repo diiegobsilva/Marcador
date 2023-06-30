@@ -12,19 +12,20 @@ const styles = StyleSheet.create({
     fontWeight: "bold"
   },
   buttonTruco : {
-    margin: 30,
+    marginHorizontal: "20%",
     borderRadius: 13,
     alignItems: "center",
     justifyContent: "center",
     width: "60%",
     height: 50,
     backgroundColor: "#A80E0E",
+    margin:30
   },
   buttoZerar : {
-    borderRadius: 8,
-    margin: 20,
     alignItems: "center",
+    alignSelf: "center",
     justifyContent: "center",
+    borderRadius: 8,
     width: "27%",
     height: 30,
     backgroundColor: "#A80E0E",
