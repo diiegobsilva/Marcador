@@ -9,8 +9,10 @@ export default function Main(){
 
     return(
         <View style={styles.boxTitle}>
-            <Titulo titulo={"Eles"}/>
-            <Titulo titulo={"Nós"}/>
+            <View style={styles.titulo}> 
+                <Titulo  style={styles.tituloDireita} titulo={"Eles"}/>
+                <Titulo  style={styles.tituloEsquerda} titulo={"Nós"}/>
+            </View>
             <Botao/>
         </View>
     )

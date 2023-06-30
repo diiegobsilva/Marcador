@@ -4,14 +4,14 @@ import { View, Text, Modal, Alert, TextInput, Pressable, TouchableOpacity } from
 import styles from "./styles";
 
 
-export default function Titulo({titulo}:any){
+export default function Titulo({titulo, style}:any){
 
     const [modalVisible, setModalVisible] = useState(false);
     const [ title, setTitle ] = useState(titulo)
     
 
     return(
-        <View>
+        <View style={style}>
             <Modal 
                 animationType="slide"
                 transparent={true}
@@ -34,7 +34,7 @@ export default function Titulo({titulo}:any){
                     </View>
             </Modal>
             <Pressable onPress={() => setModalVisible(true)}>
-                <Text>{title}</Text>
+                <Text style={styles.title}>{title}</Text>
             </Pressable>
         </View>
         

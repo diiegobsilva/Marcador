@@ -9,7 +9,13 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         backgroundColor: "blue"
-    }
+    },
+    title: {
+        color: "#fff",
+        fontSize: 36,
+        fontWeight: "bold"
+    },
+    
 })
 
 export default styles
