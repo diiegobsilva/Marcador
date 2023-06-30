@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, ImageBackground, View , Image} from 'react-native';
 import Main from './src/components/Main';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Main/>
+      <ImageBackground source={require('./src/assets/planoFundo.jpg')} style={styles.backgroundTela}>
+        <Main/>
+      </ImageBackground>
+      
     </View>
   );
 }
@@ -13,6 +16,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 80
+    paddingTop: 80,
+    backgroundColor: "black",
+  },
+  backgroundTela:{
+    backgroundColor: "rgba(0, 0, 0, 0.5)",
   },
 });
