@@ -4,11 +4,19 @@ import React from 'react'
 
 const styles = StyleSheet.create({
     modalTitle: {
-        width: "50%",
-        height: "50%",
+        width: 250,
+        height: 300,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "blue"
+        backgroundColor: "#fff"
+
+    },
+    text: {
+       fontSize: 15,
+       fontWeight: "bold"
+    },
+    botao: {
+        backgroundColor: ""
     },
     title: {
         color: "#fff",

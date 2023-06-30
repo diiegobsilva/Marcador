@@ -16,18 +16,19 @@ export default function Titulo({titulo, style}:any){
                 animationType="slide"
                 transparent={true}
                 visible={modalVisible}
-                onRequestClose={() => {
-                Alert.alert('Modal has been closed.');
-                setModalVisible(!modalVisible);
+                onRequestClose={() => {setModalVisible(!modalVisible);
+                
                 }}>
                     <View style={styles.modalTitle}>
                         <TextInput 
                             placeholder="Nome"
                             onChangeText={(e) => setTitle(e)}
+                            style={styles.text}
                             value={title}
                         />
                         <TouchableOpacity
                             onPress={() => setModalVisible(false)}
+                            style={styles.botao}
                         >
                             <Text>close</Text>
                         </TouchableOpacity>

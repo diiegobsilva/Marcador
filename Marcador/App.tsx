@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, ImageBackground, View , Image} from 'react-native';
 import Main from './src/components/Main';
 
@@ -14,7 +13,6 @@ export default function App() {
     </View>
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
