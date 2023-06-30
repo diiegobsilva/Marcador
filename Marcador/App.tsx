@@ -5,7 +5,9 @@ import Main from './src/components/Main';
 export default function App() {
   return (
     <View style={styles.container}>
-      <ImageBackground source={require('./src/assets/planoFundo.jpg')} style={styles.backgroundTela}>
+      <ImageBackground source={require('./src/assets/planoFundo.jpg')} 
+        style={styles.backgroundTela}
+        imageStyle={{ opacity: 0.3 }} >
         <Main/>
       </ImageBackground>
       
@@ -19,7 +21,11 @@ const styles = StyleSheet.create({
     paddingTop: 80,
     backgroundColor: "black",
   },
-  backgroundTela:{
-    backgroundColor: "rgba(0, 0, 0, 0.5)",
+  backgroundTela: {
+    flex: 1,
+    resizeMode: 'cover',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
+  
 });

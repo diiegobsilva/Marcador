@@ -16,18 +16,18 @@ const styles = StyleSheet.create({
     borderRadius: 13,
     alignItems: "center",
     justifyContent: "center",
-    width: "60%",
-    height: 50,
+    width: "65%",
+    height: 55,
     backgroundColor: "#A80E0E",
-    margin:30
+    margin:35
   },
   buttoZerar : {
     alignItems: "center",
     alignSelf: "center",
     justifyContent: "center",
     borderRadius: 8,
-    width: "27%",
-    height: 30,
+    width: "35%",
+    height: 35,
     backgroundColor: "#A80E0E",
   },
   });
