@@ -30,7 +30,7 @@ export default function Titulo({titulo, style}:any){
                             onPress={() => setModalVisible(false)}
                             style={styles.botao}
                         >
-                            <Text>close</Text>
+                            <Text style={styles.textButton}>Fechar</Text>
                         </TouchableOpacity>
                     </View>
             </Modal>
