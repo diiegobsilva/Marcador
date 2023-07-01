@@ -8,15 +8,23 @@ const styles = StyleSheet.create({
         height: 150,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#fff"
+        alignSelf: "center",
+        backgroundColor: "#fff",
+        position: "absolute",
+        top: "50%",
+        marginTop: -75, 
+        borderRadius: 20,
+        borderWidth: 1,
+      },
 
-    },
     formLabel: {
         color: "black",
         fontSize: 18,
         paddingLeft: 20,
+        fontWeight: "bold"
       },
-      input: {
+
+    input: {
         width: "90%",
         borderRadius: 50,
         backgroundColor: "#f6f6f6",
@@ -24,18 +32,35 @@ const styles = StyleSheet.create({
         margin: 12,
         paddingLeft: 10,
       },
+
     text: {
        fontSize: 15,
        fontWeight: "bold"
     },
 
     botao: {
+        flexDirection: "row",
+        justifyContent: "center",
+        marginTop: 5
+      },
+      
+      botaoFechar: {
         alignItems: "center",
-        borderRadius: 8,
+        borderRadius: 5,
         width: "25%",
-        height: 20,
+        height: "100%",
         backgroundColor: "#A80E0E",
-    },
+        marginRight: "10%",
+      },
+      
+      botaoOk: {
+        alignItems: "center",
+        borderRadius: 5,
+        width: "25%",
+        height: "100%",
+        backgroundColor: "#A80E0E",
+        marginLeft: "10%",
+      },
     textButton : {
         color: "#fff",
         fontSize: 13,
