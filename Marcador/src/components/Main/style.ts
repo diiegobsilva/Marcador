@@ -6,15 +6,14 @@ const styles = StyleSheet.create({
     },
     titulo: {
       flexDirection: "row",
-      
       backgroundColor: "blue",
-      
-   
       width: "100%"
     },
+
     tituloEsquerda: {
       marginLeft: "25%",
     },
+    
     tituloDireita: {
       marginRight: "25%",
     },

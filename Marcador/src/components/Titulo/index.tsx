@@ -20,18 +20,27 @@ export default function Titulo({titulo, style}:any){
                 
                 }}>
                     <View style={styles.modalTitle}>
+                        <Text style={styles.formLabel}>Digite o Nome:</Text>
                         <TextInput 
                             placeholder="Nome"
                             onChangeText={(e) => setTitle(e)}
-                            style={styles.text}
+                            style={styles.input}
                             value={title}
                         />
-                        <TouchableOpacity
-                            onPress={() => setModalVisible(false)}
-                            style={styles.botao}
-                        >
-                            <Text style={styles.textButton}>Fechar</Text>
-                        </TouchableOpacity>
+                        <View style={styles.botao}>
+                            <TouchableOpacity
+                                onPress={() => setModalVisible(false)}
+                                style={styles.botaoFechar}
+                            >
+                                <Text style={styles.textButton}>Fechar</Text>
+                            </TouchableOpacity>
+                            <TouchableOpacity
+                                onPress={() => setModalVisible(false)}
+                                style={styles.botaoOk}
+                            >
+                                <Text style={styles.textButton}>Ok</Text>
+                            </TouchableOpacity>
+                        </View>
                     </View>
             </Modal>
             <Pressable onPress={() => setModalVisible(true)}>
