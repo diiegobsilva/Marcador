@@ -11,7 +11,7 @@ export default function Titulo({titulo, style}:any){
     const [ tituloo, setTituloo ] = useState(titulo)
     
     const name = (t:boolean) => {
-        if(t != false){
+        if(t != false && tituloo.length > 0){
             setTitle(tituloo)
         }
     }  
