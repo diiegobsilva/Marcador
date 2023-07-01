@@ -4,6 +4,7 @@ import styles from "./style"
 
 import Titulo from "../Titulo";
 import Botao from "../Botao";
+import Contador from "../Contador";
 
 export default function Main(){
 
@@ -13,6 +14,7 @@ export default function Main(){
                 <Titulo  style={styles.tituloDireita} titulo={"Eles"}/>
                 <Titulo  style={styles.tituloEsquerda} titulo={"Nós"}/>
             </View>
+            <Contador />
             <Botao/>
         </View>
     )
