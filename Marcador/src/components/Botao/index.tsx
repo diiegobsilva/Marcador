@@ -4,7 +4,7 @@ import styles from "./style"
 import { useContexto } from "../../hook";
 
 export default function Botao(){
-    const { setPontuacao, truco, setTruco } = useContexto()
+    const { setPontuacao, truco, setTruco, setZerar } = useContexto()
 
 
     const trucoSoma = () => {
@@ -31,7 +31,7 @@ export default function Botao(){
             <TouchableOpacity onPress={() => trucoSoma()} style={styles.buttonTruco}>
                 <Text style={styles.textButton} >{truco}</Text> 
             </TouchableOpacity>
-            <TouchableOpacity style={styles.buttoZerar}>
+            <TouchableOpacity onPress={() => setZerar(true)} style={styles.buttoZerar}>
                 <Text style={styles.textButtonZerar} >Zerar Truco</Text> 
             </TouchableOpacity>
         </View>

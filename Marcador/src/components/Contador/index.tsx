@@ -1,11 +1,11 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Image, Text, TouchableOpacity, View } from "react-native";
 import styles from "./style";
 import { useContexto } from "../../hook";
 
 export default function Contador({valor}:any) {
 
-    const { pontuacao, setPontuacao, setTruco } = useContexto()
+    const { pontuacao, zerar, setPontuacao, setTruco } = useContexto()
     const [ pontos, setPontos ] = useState(0)
 
     console.log(pontuacao);
@@ -29,6 +29,15 @@ export default function Contador({valor}:any) {
         setTruco("Truco")
         
     }
+
+    const zerarPontos = () => {
+        if (zerar === true){
+            setPontos(0)
+        }
+        console.log(zerar);  
+    }
+
+
 
     return (
 
