@@ -10,7 +10,6 @@ export default function Main(){
 
     return(
         <View style={styles.boxTitle}>
-            <Image  style={{width: 50, height: 50}}  source={require('../../assets/logo.png')} />
             <View style={styles.titulo}> 
                 <Titulo  style={styles.tituloDireita} titulo={"Eles"}/>
                 <Titulo  style={styles.tituloEsquerda} titulo={"Nós"}/>
