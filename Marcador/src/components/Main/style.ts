@@ -28,7 +28,6 @@ const styles = StyleSheet.create({
       justifyContent: "space-between",
       flexDirection: "row",
       alignItems: "center",
-      alignSelf: "center",
       paddingBottom: 30
     },
     linhaPontilhada: {
