@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     coluna: {
         flexDirection: "row",
-        
+
     },
     
     linhaPontilhada: {
@@ -24,21 +24,23 @@ const styles = StyleSheet.create({
         alignItems: "center",
         alignSelf: "center",
         justifyContent: "center",
-        marginBottom: 10
+        marginBottom: 25
     },
 
     naipeOuros: {
         width: 50,
         height: 70,
         margin: 5,
-        marginTop: 30
+        marginTop: 30,
+        marginBottom: 30
     },
 
     naipeEspada: {
         width: 60,
         height: 70,
         margin: 5,
-        marginTop: 30
+        marginTop: 30,
+        marginBottom: 30
     },
 
     container: {
