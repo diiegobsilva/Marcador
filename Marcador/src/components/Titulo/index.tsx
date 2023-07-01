@@ -7,18 +7,13 @@ import styles from "./styles";
 export default function Titulo({titulo, style}:any){
 
     const [modalVisible, setModalVisible] = useState(false);
-    const [ ok, setOk ] = useState(false)
     const [ title, setTitle ] = useState(titulo)
     const [ tituloo, setTituloo ] = useState(titulo)
     
-    const name = () => {
-        if(ok != false){
-            console.log(ok);
+    const name = (t:boolean) => {
+        if(t != false){
             setTitle(tituloo)
         }
-        setOk(false)
-        console.log(ok);
-        
     }  
 
     return(
@@ -48,12 +43,11 @@ export default function Titulo({titulo, style}:any){
                                 <Text style={styles.textButton}>Fechar</Text>
                             </TouchableOpacity>
                             <TouchableOpacity
+                                style={styles.botaoOk}
                                 onPress={() => {
-                                    setOk(true)
-                                    name()
+                                    name(true)
                                     setModalVisible(false)
                                 }}
-                                style={styles.botaoOk}
                             >
                                 <Text style={styles.textButton}>Ok</Text>
                             </TouchableOpacity>
