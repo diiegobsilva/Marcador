@@ -8,7 +8,7 @@ export default function App() {
         <View style={styles.container}>
           <ImageBackground source={require('./src/assets/planoFundo.jpg')} 
             style={styles.backgroundTela}
-            imageStyle={{ opacity: 0.3 }} >
+            imageStyle={{ opacity: 0.4 }} >
           <Main/>
           </ImageBackground>
         

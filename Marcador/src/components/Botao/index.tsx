@@ -22,6 +22,7 @@ export default function Botao(){
         }
         else if(truco === "12"){
             setPontuacao(12)
+            setTruco("Maximo")
         }
     }
 

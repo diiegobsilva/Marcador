@@ -28,16 +28,16 @@ const styles = StyleSheet.create({
     },
 
     naipeOuros: {
-        width: 60,
-        height: 80,
+        width: 70,
+        height: 90,
         margin: 5,
         marginTop: 40,
 
     },
 
     naipeEspada: {
-        width: 70,
-        height: 80,
+        width: 80,
+        height: 90,
         margin: 5,
         marginTop: 40,
       

@@ -12,11 +12,17 @@ export default function Contador({valor}:any) {
     
     const alterarValor = (sinal:string) => {
         if(sinal === "-" && pontos != 0){
-            let valor = pontos - pontuacao  
+            let valor = pontos - pontuacao 
+            if(valor < 0){
+                valor = 0
+            }
             setPontos(valor)
         }
         else if(sinal === "+" && pontos < 12){
             let valor = pontos + pontuacao  
+            if(valor > 12){
+                valor = 12
+            }
             setPontos(valor)
         }
         setPontuacao(1)
