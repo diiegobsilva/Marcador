@@ -2,20 +2,24 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     boxTitle: {
-
+      width: "100%",
+      height: "100%"
     },
     titulo: {
+      width: "100%",
+      
+      justifyContent: "space-between",
       flexDirection: "row",
-      backgroundColor: "blue",
-      width: "100%"
     },
 
     tituloEsquerda: {
-      marginLeft: "25%",
+      width: "40%",
+      alignItems: "center",
     },
     
     tituloDireita: {
-      marginRight: "25%",
+      width: "40%",
+      alignItems: "center",
     },
   });
    
