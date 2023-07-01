@@ -4,7 +4,7 @@ import styles from "./style"
 
 export default function Botao(){
     return(
-        <View>
+        <View style={styles.viewBotao} >
             <TouchableOpacity style={styles.buttonTruco}>
                 <Text style={styles.textButton} >Truco</Text> 
             </TouchableOpacity>

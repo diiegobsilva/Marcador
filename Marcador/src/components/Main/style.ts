@@ -7,7 +7,6 @@ const styles = StyleSheet.create({
     },
     titulo: {
       width: "100%",
-      
       justifyContent: "space-between",
       flexDirection: "row",
     },
