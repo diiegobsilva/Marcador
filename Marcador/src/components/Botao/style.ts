@@ -1,6 +1,9 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
+  viewBotao : {
+    marginTop: "80%"
+  },
   textButton : {
     color: "#fff",
     fontSize: 35,
