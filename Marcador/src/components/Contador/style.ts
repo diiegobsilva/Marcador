@@ -28,19 +28,19 @@ const styles = StyleSheet.create({
     },
 
     naipeOuros: {
-        width: 50,
-        height: 70,
+        width: 60,
+        height: 80,
         margin: 5,
-        marginTop: 30,
-        marginBottom: 30
+        marginTop: 40,
+
     },
 
     naipeEspada: {
-        width: 60,
-        height: 70,
+        width: 70,
+        height: 80,
         margin: 5,
-        marginTop: 30,
-        marginBottom: 30
+        marginTop: 40,
+      
     },
 
     container: {
