@@ -20,6 +20,22 @@ const styles = StyleSheet.create({
       width: "40%",
       alignItems: "center",
     },
+    container: {
+      width: "100%",
+      justifyContent: "space-between",
+      flexDirection: "row",
+    },
+    linhaPontilhada: {
+      width: 2,
+      height: "100%",
+      backgroundColor: "#fff",
+      borderStyle: "dashed",
+      position: "absolute",
+      left: "50%",
+      top: 0,
+      transform: [{ translateX: -1 }],
+    },
+    
   });
    
   export default styles

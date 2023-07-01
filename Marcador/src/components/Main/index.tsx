@@ -15,7 +15,11 @@ export default function Main(){
                 <Titulo  style={styles.tituloDireita} titulo={"Eles"}/>
                 <Titulo  style={styles.tituloEsquerda} titulo={"Nós"}/>
             </View>
-            <Contador />
+            <View style={styles.container}>
+                <Contador valor={6} />
+                <View style={styles.linhaPontilhada} />
+                <Contador valor={11}/>
+            </View>
             <Botao/>
         </View>
     )
