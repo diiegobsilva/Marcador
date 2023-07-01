@@ -9,6 +9,8 @@ const styles = StyleSheet.create({
       width: "100%",
       justifyContent: "space-between",
       flexDirection: "row",
+      marginTop: 15,
+      paddingBottom: 40
     },
 
     tituloEsquerda: {
@@ -20,11 +22,17 @@ const styles = StyleSheet.create({
       width: "40%",
       alignItems: "center",
     },
+    
     container: {
       width: "100%",
+      height: "35%",
       justifyContent: "space-between",
       flexDirection: "row",
+      alignItems: "center",
+      marginTop: 50,
+      paddingBottom: 30
     },
+
     linhaPontilhada: {
       width: 2,
       height: "100%",
