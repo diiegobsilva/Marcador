@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { View, Text, Modal, Alert, TextInput, Pressable, TouchableOpacity } from "react-native";
+import { View, Text, Modal, Alert, TextInput, Pressable, TouchableOpacity, Image } from "react-native";
 import styles from "./styles";
 
 

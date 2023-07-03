@@ -50,6 +50,7 @@ export default function Contador({valor}:any) {
             <TouchableOpacity onPress={() => alterarValor("+")}>
                 <Image style={styles.naipeEspada} source={require("../../assets/espada.png")} />
             </TouchableOpacity>
+
           </View>
         </View>
 

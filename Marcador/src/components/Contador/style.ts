@@ -3,7 +3,9 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     coluna: {
         flexDirection: "row",
-
+        backgroundColor: 'rgba(255, 255, 255, 0.04)',
+        marginTop: 28,
+        borderRadius: 3
     },
     
     linhaPontilhada: {
@@ -19,7 +21,7 @@ const styles = StyleSheet.create({
 
     text: {
         color: "#fff",
-        fontSize: 70,
+        fontSize: 80,
         fontWeight: "bold",
         alignItems: "center",
         alignSelf: "center",
@@ -31,16 +33,12 @@ const styles = StyleSheet.create({
         width: 70,
         height: 90,
         margin: 5,
-        marginTop: 40,
-
     },
 
     naipeEspada: {
         width: 80,
         height: 90,
         margin: 5,
-        marginTop: 40,
-      
     },
 
     container: {
@@ -52,7 +50,6 @@ const styles = StyleSheet.create({
     viewEsquerda: {
         width: "40%",
         alignItems: "center",
-
     },
 
     viewDireita: {
