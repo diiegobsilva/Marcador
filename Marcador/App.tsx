@@ -6,9 +6,9 @@ export default function App() {
   return (
     <Provider>
         <View style={styles.container}>
-          <ImageBackground source={require('./src/assets/planoFundo.jpg')} 
+          <ImageBackground source={require('./src/assets/amem.jpg')} 
             style={styles.backgroundTela}
-            imageStyle={{ opacity: 0.4 }} >
+            imageStyle={{ opacity: 0.2}} >
           <Main/>
           </ImageBackground>
       </View>
@@ -19,7 +19,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 80,
     backgroundColor: "black",
   },
   backgroundTela: {

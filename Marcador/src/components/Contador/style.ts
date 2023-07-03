@@ -33,25 +33,14 @@ const styles = StyleSheet.create({
         width: 70,
         height: 90,
         margin: 5,
-        backgroundColor: "rgba(255, 255, 255, 0.09)",
-        borderRadius: 15,
-        shadowOpacity: 1,
-        shadowRadius: 10,
-        resizeMode: "cover",
-        shadowColor: "#fff",
+
     },
 
     naipeEspada: {
         width: 80,
         height: 90,
         margin: 5,
-        backgroundColor: "rgba(255, 255, 255, 0.09)",
-        borderRadius: 15,
-        shadowOpacity: 1,
-        shadowRadius: 10,
-        resizeMode: "cover",
-        shadowColor: "#fff",
-        
+
     },
 
     container: {

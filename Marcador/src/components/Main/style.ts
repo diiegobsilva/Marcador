@@ -3,14 +3,15 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     boxTitle: {
       width: "100%",
-      height: "100%"
+      height: "100%",
     },
     titulo: {
       width: "100%",
       justifyContent: "space-between",
       flexDirection: "row",
-      marginTop: 15,
-      paddingBottom: 40
+      marginTop: 40,
+      paddingBottom: 30,
+
     },
 
     tituloEsquerda: {
