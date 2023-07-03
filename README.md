@@ -6,8 +6,18 @@
 
 <p align="justify">O projeto tem como objetivo o desenvolvimento de um aplicativo utilizando React Native, no qual o usuário poderá registrar e marcar cada ponto realizado durante uma partida.</p>
 
-<span id="tecnologias">
 
+## Protótipo do Projeto
+
+<p align="center">
+  <img src="https://github.com/diiegobsilva/Marcador/blob/main/Marcador/src/assets/TelaBase.png" width="200"  height="350"title="">
+</p>
+
+## Projeto Realizado
+
+
+<span id="tecnologias">
+  
 ## 🛠️ Tecnologias
 
 Foram usadas as seguintes ferramentas, linguagens e tecnologias para a execução do projeto:
@@ -20,6 +30,8 @@ Foram usadas as seguintes ferramentas, linguagens e tecnologias para a execuçã
 - [NodeJS](https://nodejs.org/): Runtime
 - [React-Native](https://pt-br.reactjs.org/): Framework
 <br/><br/>
+
+
 ## 👩‍💻 Equipe 
 |Função|Nome|GitHub|LinkedIn|
 | -------- |-------- |-------- |-------- |
