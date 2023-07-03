@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import {View, TouchableOpacity, Text} from "react-native"
+import {View, TouchableOpacity, Text, Pressable} from "react-native"
 import styles from "./style"
 import { useContexto } from "../../hook";
+import ModalZerar from "../ModalZerar";
+
 
 export default function Botao(){
-    const { setPontuacao, truco, setTruco, setResetPontos } = useContexto();
+    const { setPontuacao, truco, setTruco } = useContexto();
 
 
     const trucoSoma = () => {
@@ -25,18 +27,13 @@ export default function Botao(){
             setTruco("Maximo")
         }
     }
-    const zerarPontos = () => {
-        setResetPontos(true);
-      };
 
     return(
         <View style={styles.viewBotao} >
             <TouchableOpacity onPress={() => trucoSoma()} style={styles.buttonTruco}>
                 <Text style={styles.textButton} >{truco}</Text> 
             </TouchableOpacity>
-            <TouchableOpacity onPress={zerarPontos} style={styles.buttoZerar}>
-        <Text style={styles.textButtonZerar}>Zerar Pontos</Text>
-      </TouchableOpacity>
+            <ModalZerar/>
         </View>
     )
 }

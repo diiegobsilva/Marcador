@@ -4,8 +4,8 @@ import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
     modalTitle: {
-        width: 250,
-        height: 150,
+        width: 270,
+        height: 110,
         justifyContent: "center",
         alignItems: "center",
         alignSelf: "center",
@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
     formLabel: {
         color: "black",
         fontSize: 18,
-        paddingLeft: 20,
         fontWeight: "bold"
       },
 
@@ -41,10 +40,10 @@ const styles = StyleSheet.create({
     botao: {
         flexDirection: "row",
         justifyContent: "center",
-        marginTop: 5
+        marginTop: 25
       },
       
-      botaoFechar: {
+      botaoNao: {
         alignItems: "center",
         borderRadius: 5,
         width: "25%",
@@ -73,7 +72,20 @@ const styles = StyleSheet.create({
         fontWeight: "bold"
     
     },
-    
+    buttoZerar: {
+        width: 115,
+        height: 35,
+        backgroundColor: '#A80E0E',
+        borderRadius: 8,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginBottom: 20,
+      },
+      textButtonZerar: {
+        color: '#fff',
+        fontSize: 13,
+        fontWeight: 'bold',
+      },
 })
 
 export default styles
