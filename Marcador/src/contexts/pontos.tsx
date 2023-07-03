@@ -1,31 +1,23 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
 
-
-export const Contexto = createContext({} as { 
-  pontuacao: number; 
-  setPontuacao: React.Dispatch<React.SetStateAction<number>>, 
-  truco: string, 
-  setTruco:  React.Dispatch<React.SetStateAction<string>>,
-  zerar: boolean,
-  setZerar: React.Dispatch<React.SetStateAction<boolean>>
+export const Contexto = createContext({} as {
+  pontuacao: number;
+  setPontuacao: React.Dispatch<React.SetStateAction<number>>;
+  truco: string;
+  setTruco: React.Dispatch<React.SetStateAction<string>>;
+  resetPontos: boolean;
+  setResetPontos: React.Dispatch<React.SetStateAction<boolean>>;
 });
 
 export function Provider({ children }: any) {
   const [pontuacao, setPontuacao] = useState(0);
-  const [ truco, setTruco ] = useState("Truco")
-  const [zerar, setZerar] = useState(false)
-
-  useEffect(() => {
-    (async function () {
-      setPontuacao(1);
-      setTruco("Truco")
-    })();
-  }, []);
-
-  console.log(pontuacao);
+  const [truco, setTruco] = useState("Truco");
+  const [resetPontos, setResetPontos] = useState(false);
 
   return (
-    <Contexto.Provider value={{ pontuacao, setPontuacao, truco, setTruco , zerar, setZerar}}>
+    <Contexto.Provider
+      value={{ pontuacao, setPontuacao, truco, setTruco, resetPontos, setResetPontos }}
+    >
       {children}
     </Contexto.Provider>
   );

@@ -11,7 +11,6 @@ export default function App() {
             imageStyle={{ opacity: 0.4 }} >
           <Main/>
           </ImageBackground>
-        
       </View>
     </Provider>
 

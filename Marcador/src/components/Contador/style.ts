@@ -3,9 +3,9 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     coluna: {
         flexDirection: "row",
-        backgroundColor: 'rgba(255, 255, 255, 0.04)',
+   
         marginTop: 28,
-        borderRadius: 3
+
     },
     
     linhaPontilhada: {
@@ -33,12 +33,25 @@ const styles = StyleSheet.create({
         width: 70,
         height: 90,
         margin: 5,
+        backgroundColor: "rgba(255, 255, 255, 0.09)",
+        borderRadius: 15,
+        shadowOpacity: 1,
+        shadowRadius: 10,
+        resizeMode: "cover",
+        shadowColor: "#fff",
     },
 
     naipeEspada: {
         width: 80,
         height: 90,
         margin: 5,
+        backgroundColor: "rgba(255, 255, 255, 0.09)",
+        borderRadius: 15,
+        shadowOpacity: 1,
+        shadowRadius: 10,
+        resizeMode: "cover",
+        shadowColor: "#fff",
+        
     },
 
     container: {
@@ -56,6 +69,21 @@ const styles = StyleSheet.create({
         width: "40%",
         alignItems: "center",
     },
+
+    textButtonZerar: {
+        color: '#fff',
+        fontSize: 13,
+        fontWeight: 'bold',
+      },
+      buttoZerar: {
+        width: '35%',
+        height: 35,
+        backgroundColor: '#A80E0E',
+        borderRadius: 8,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginBottom: 20,
+      },
 
 });
 
