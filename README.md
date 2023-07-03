@@ -4,7 +4,7 @@
 
 <h2> :dart: Objetivo</h2>
 
-<p align="justify"> O projeto consiste em desenvolver uma plataforma de gerenciamento de chamados internos para a Ionic Health. Essa plataforma deve ser capaz de receber demandas de correção urgente (hotfix) e novas funcionalidades (feature), direcionando-as para as equipes responsáveis. Além disso, deve permitir a aprovação de novas funcionalidades por um comitê de avaliação. Com essa plataforma, a empresa poderia melhorar a comunicação interna, colaboração entre as equipes e monitorar o desempenho do processo de desenvolvimento de produtos.</p>
+<p align="justify">O projeto tem como objetivo o desenvolvimento de um aplicativo utilizando React Native, no qual o usuário poderá registrar e marcar cada ponto realizado durante uma partida.</p>
 
 <span id="tecnologias">
 
